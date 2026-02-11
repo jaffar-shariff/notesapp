@@ -11,7 +11,8 @@ const schema = a.schema({
     .model({
       content: a.string(),
     })
-    .authorization((allow) => [allow.guest()]),
+    .authorization((allow) => [allow.guest()]),git status
+
 });
 
 export type Schema = ClientSchema<typeof schema>;
